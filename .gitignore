@@ -58,3 +58,4 @@ gradle-app.setting
 **/build/
 run/
 !gradle-wrapper.jar
+notes.txt
