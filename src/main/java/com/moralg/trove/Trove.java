@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Trove {
+package com.moralg.trove;
+
+public class Trove {
 }
