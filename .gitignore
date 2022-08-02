@@ -61,5 +61,3 @@ run/
 notes.txt
 # Ignore Gradle build output directory
 build
-# Ignore Testing.java 
-**/Testing.java
