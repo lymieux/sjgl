@@ -62,4 +62,4 @@ notes.txt
 # Ignore Gradle build output directory
 build
 # Ignore Testing.java 
-app/src/main/java/trove/Testing.java
+**/Testing.java
