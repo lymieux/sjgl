@@ -7,7 +7,7 @@ public abstract class Angle {
 		this.measure = measure;
 	}
 
-	public double getMeasure() {
+	public double getMeasure(){
 		return measure;
 	}
 }
