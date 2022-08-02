@@ -1,6 +1,8 @@
 package trove;
+import trove.measure.Radians;
+import trove.measure.Degrees;
 
-public class Test {
+public class Testing {
 
     public static void main(String[] args) {
         Radians rad = new Radians(java.lang.Math.PI);
