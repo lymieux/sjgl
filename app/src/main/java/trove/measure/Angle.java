@@ -1,4 +1,4 @@
-package trove;
+package trove.measure;
 
 public abstract class Angle {
 	public final double measure;

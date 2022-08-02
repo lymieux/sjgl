@@ -1,4 +1,4 @@
-package trove;
+package trove.measure;
 import static java.lang.Math.PI;
 
 public class Degrees extends Angle {
