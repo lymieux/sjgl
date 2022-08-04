@@ -1,9 +1,9 @@
 package trove.measure;
 
 public abstract class Angle {
-	public final double measure;
+	protected final double measure;
 
-	public Angle(double measure){
+	public Angle(final double measure){
 		this.measure = measure;
 	}
 
