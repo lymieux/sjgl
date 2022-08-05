@@ -20,6 +20,7 @@ public class Point<I,V> {
 			);
 	}
 
+	// For EnumMap
 	public Point(String name, AbstractMap<I,V> location){
 		this.name = name;
 		this.location = location;
