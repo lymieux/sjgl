@@ -1,9 +1,6 @@
-#
-# https://help.github.com/articles/dealing-with-line-endings/
-#
-# Linux start script should use lf
+# Linux/macOS - Line Feed (LF)
 /gradlew        text eol=lf
-
-# These are Windows script files and should use crlf
+# Windows - Carriage Return Line Feed (CRLF)
 *.bat           text eol=crlf
-
+# User's machine choosing line ending
+* text=auto
