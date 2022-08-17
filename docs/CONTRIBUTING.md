@@ -6,7 +6,7 @@ Before contributing, it would be beneficial for your time, that you check in wit
 
 ## New contributor guide
 
-To get an overview of the project, read the [README](README.md). 
+To get an overview of the project, read the [README](../README.md). 
 
 Here are some resources to help you get started with open source contributions using git:
 
