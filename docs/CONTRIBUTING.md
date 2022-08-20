@@ -8,6 +8,8 @@ Before contributing, it would be beneficial for your time, that you check in wit
 
 To get an overview of the project, read the [README](../README.md). 
 
+sjgl also follows [Google's Java Style](https://google.github.io/styleguide/javaguide.html).
+
 Here are some resources to help you get started with open source contributions using git:
 
 - [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
