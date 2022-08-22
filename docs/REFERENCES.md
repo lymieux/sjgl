@@ -9,3 +9,4 @@ Links:
 * https://doc.cgal.org/latest/Manual/tuto_gis.html
 * https://doc.cgal.org/latest/Kernel_23/index.html#Section_7.2.6
 * https://www.ogc.org/standards/sfa
+* https://en.wikipedia.org/wiki/Geometric_primitive
