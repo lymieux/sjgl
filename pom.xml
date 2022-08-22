@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.kymchi.sjgl</groupId>
-  <artifactId>sjgl</artifactId>
+  <artifactId>sjgl-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>sjgl</name>
+  <name>Simple Java Geometry Library</name>
   <url>https://github.com/kym-chi/sjgl</url>
-  <description>A simple no dependency purely abstract geometry library for Java</description>
+  <description>The parent pom for the sjgl modules</description>
   
   <licenses>
     <license>
@@ -37,6 +37,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+
     <!-- dependency versions  -->
     <junit-version>4.13.1</junit-version>  
   </properties>
@@ -51,6 +52,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
 
   <build>
     <pluginManagement>
@@ -96,6 +104,6 @@
   </build>
 
   <modules>
-    <module>modules</module>
+    <module>sjgl-core</module>
   </modules>
 </project>
