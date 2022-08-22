@@ -94,4 +94,8 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <modules>
+    <module>modules</module>
+  </modules>
 </project>
