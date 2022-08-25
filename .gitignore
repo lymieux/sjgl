@@ -63,3 +63,5 @@ notes.txt
 build
 # Ignore vscode directory
 .vscode/
+# Ignore target directory for maven
+target/
