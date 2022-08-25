@@ -61,3 +61,5 @@ run/
 notes.txt
 # Ignore Gradle build output directory
 build
+# Ignore vscode directory
+.vscode/
