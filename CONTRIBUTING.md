@@ -39,7 +39,7 @@ When preparing a PR, make sure you label it correctly to track and prioritize th
 
 Before creating a pull request, make sure you also
 * Update Javadoc on classes and methods
-* Add license information on provided source files. An example license header can be found [here](license-header.txt). 
+* Add license information on provided source files. An example license header can be found [here](./docs/license-header.txt). 
 
 When you're finished with the changes, create a pull request (PR).
 - Fill the "Ready for Review" template so that we can review your PR. Its a simple template to help reviews understand your changes and purpose.
