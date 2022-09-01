@@ -3,14 +3,14 @@ type: software
 title: Simple Java Geometry Library
 abstract: A library that provides way to create and manipulate geometric objects.
 license: GPL-2.0
-version: "1.0-SNAPSHOT" //update per version
+version: "1.0-SNAPSHOT"
 keywords:
  - "Java library"
  - "Geometric tools"
  - "Built with Maven"
 repository-code: "https://github.com/kym-chi/sjgl"
-repository-artifact: ""//todo maven artifact
-url: "" //todo github pages
+repository-artifact: ""
+url: ""
 date-released: 2022-10-1
 message: Please cite this software using these metadata.
 authors:
