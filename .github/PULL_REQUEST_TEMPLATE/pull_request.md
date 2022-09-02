@@ -14,4 +14,5 @@
 - [ ] I've added tests that prove my fix is effective or that my feature works, if no tests do so
 <!-- Note tests are ran automatically through workflows, so you do not need to run, just add -->
 - [ ] I've added significant changes to the [CHANGELOG.md](../../CHANGELOG.md)
+<!-- Tag yourself at the end of the line that you add in the CHANGELOG -->
 - [ ] I've added myself to [CONTRIBUTORS.md](../../CONTRIBUTORS.md)
