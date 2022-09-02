@@ -2,3 +2,4 @@ name: "🐛 Bug Report"
 description: "Report a bug. Please include information to reproduce."
 title: "[Bug Report]: "
 labels: []
+body:

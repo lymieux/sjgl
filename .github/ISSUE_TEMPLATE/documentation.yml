@@ -2,3 +2,4 @@ name: "📑 Documentation Report"
 description: "Report a issue in documentation, or suggest and improvement or addition."
 title: "[Documentation Report]: "
 labels: []
+body:
