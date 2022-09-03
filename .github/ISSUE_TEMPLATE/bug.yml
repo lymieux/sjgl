@@ -43,7 +43,7 @@ body:
   attributes: 
     label: "Additional Notes:"
     description: "Any additional notes, like logs or codes snippets"
-    placeholder: "Logs and snippet picture: ..."
+    placeholder: "e.g. logs and snippet picture: ..."
     value: "No additional notes"
   validations:
     required: false
