@@ -1,5 +1,38 @@
 name: "📑 Documentation Report"
 description: "Report a issue in documentation, or suggest and improvement or addition."
 title: "[Documentation Report]: "
-labels: []
+labels: ["documentation"]
 body:
+- type: input
+  id: link
+  attributes:
+    label: "Link:"
+    description: "Link to the documentation page the contains to issue"
+    placeholder: "e.g. www.google.com"
+  validations:
+    required: true
+- type: input
+  id: location
+  attributes:
+    label: "Location"
+    description: "Applicable if link is not specific enough and context required"
+    placeholder: "e.g. paragraph 2, line 3 ..."
+    value: "n/a"
+  validations:
+    required: false
+- type: textarea
+  id: error
+  attributes:
+    label: "What is says:"
+    description: "What does the document currently say"
+    placeholder: "e.g. says \'fucton\' ..."
+  validations:
+    required: true
+- type: textarea
+  id: correction
+  attributes:
+    label: "What should it say:"
+    description: "What should the document say"
+    placeholder: "e.g. should say \'function\' ..."
+  validations:
+    required: true
