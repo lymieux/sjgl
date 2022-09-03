@@ -1,5 +1,46 @@
 name: "✨ Feature or Enhancement"
 description: "Request a new feature or support another library"
 title: "[Feature or Enhancement]: "
-labels: []
+labels: ["enhancement"]
 body:
+- type: textarea
+  id: summary
+  attributes: 
+    label: "Summary:"
+    description: "A brief explanation of the enhancement or feature"
+    placeholder: "e.g. function foo adds two triangles ..."
+  validations:
+    required: true
+- type: textarea
+  id: example
+  attributes: 
+    label: "Examples:"
+    description: "An example of how the feature or enhancement could be used"
+    placeholder: "e.g. if two polygons need to be joined ..."
+  validations:
+    required: true
+- type: textarea
+  id: alts
+  attributes: 
+    label: "Alternatives:"
+    description: "Alternatives to the feature or enhancement or how it could be implemented"
+    placeholder: "e.g. function foo accepts an array or a list ..."
+  validations:
+    required: true
+- type: textarea
+  id: draws
+  attributes:
+    label: "Drawbacks:"
+    description: "Drawbacks or difficulties in the implementation"
+    placeholder: "e.g difficult and memory inefficient ..."
+  validations:
+    required: true
+- type: textarea
+  id: notes
+  attributes: 
+    label: "Additional Notes:"
+    description: "Additional notes pertaining to the enhancement or feature"
+    placeholder: "e.g. remove function foo ..."
+    value: "No additional notes"
+  validations:
+    required: false
