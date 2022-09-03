@@ -5,14 +5,14 @@ labels: ["bug"]
 body:
 - type: input
     attributes:
-      label: Version?
+      label: "Version:"
       description: What versions of sjgl are effected?
       placeholder: e.g. 1.1.2 only, 1.3.*, 1.1.4<=
     validations:
       required: true
 - type: textarea
     attributes:
-      label: Reproduction Steps:
+      label: "Reproduction Steps:"
       description: What are the required steps to reproduce the bug?
       placeholder: |
         1. ...
@@ -21,23 +21,23 @@ body:
       required: true
 - type: textarea
     attributes:
-      label: Expected behavior:
+      label: "Expected behavior:"
       description: What is the expected behavior?
       placeholder: e.g. function foo should return bar ...
     validations:
       required: true
 - type: textarea
     attributes: 
-      label: Observed behavior
+      label: "Observed behavior:"
       description: What is the observered behavior produced by the bug?
       placeholder: e.g. function foo returned ...
     validations:
       required: true
 - type: markdown
     attributes:
-      label: Additional Notes
+      label: "Additional Notes:"
       description: Any addition notes, such as code snippets, or log dumps
-      placeholder: Picture of code: ...
+      placeholder: "Picture of code: ..."
       value: No addition notes!
     validations:
       required: false
