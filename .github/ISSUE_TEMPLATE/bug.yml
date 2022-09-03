@@ -38,9 +38,12 @@ body:
     placeholder: "e.g. function foo returned ..."
   validations:
     required: true
-- type: markdown
+- type: textarea
   id: notes
-  attributes:
-    value: "### Additional notes: "
+  attributes: 
+    label: "Additional Notes:"
+    description: "Any additional notes, like logs or codes snippets"
+    placeholder: "Logs and snippet picture: ..."
+    value: "No additional notes"
   validations:
     required: false
