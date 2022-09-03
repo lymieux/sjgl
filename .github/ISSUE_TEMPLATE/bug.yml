@@ -32,7 +32,7 @@ body:
 - type: textarea
   id: observed
   attributes: 
-    label: "Observed behavior"
+    label: "Observed behavior:"
     description: "What is the observered behavior produced by the bug?"
     placeholder: "e.g. function foo returned ..."
   validations:
@@ -40,9 +40,6 @@ body:
 - type: markdown
   id: notes
   attributes:
-    label: "Additional Notes"
-    description: "Any addition notes, such as code snippets, or log dumps"
-    placeholder: "Picture of code: ..."
-    value: "No addition notes!"
+    value: "Additional notes: "
   validations:
     required: false
