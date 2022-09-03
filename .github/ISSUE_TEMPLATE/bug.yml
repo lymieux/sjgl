@@ -38,7 +38,7 @@ body:
     validations:
       required: true
 - type: markdown
-    id: markdown
+    id: notes
     attributes:
       label: Additional Notes
       description: Any addition notes, such as code snippets, or log dumps
