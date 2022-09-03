@@ -1,6 +1,6 @@
 name: "✨ Feature or Enhancement"
 description: "Request a new feature or support another library"
-title: "[Feature or Enhancement]: "
+title: "Feature or Enhancement: "
 labels: ["enhancement"]
 body:
 - type: textarea

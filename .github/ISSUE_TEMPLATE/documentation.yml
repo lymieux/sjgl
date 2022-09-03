@@ -1,6 +1,6 @@
 name: "📑 Documentation Report"
 description: "Report a issue in documentation, or suggest and improvement or addition."
-title: "[Documentation Report]: "
+title: "Documentation Report: "
 labels: ["documentation"]
 body:
 - type: input
