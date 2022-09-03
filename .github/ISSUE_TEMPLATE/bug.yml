@@ -19,6 +19,7 @@ body:
     placeholder: |
       1. ...
       2. ...
+      3. ...
   validations:
     required: true
 - type: textarea
@@ -40,6 +41,6 @@ body:
 - type: markdown
   id: notes
   attributes:
-    value: "Additional notes: "
+    value: "### Additional notes: "
   validations:
     required: false
