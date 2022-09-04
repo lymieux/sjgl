@@ -1,7 +1,5 @@
-# SJGL: Simple Java Geometry Library 
-
-<a href="https://github.com/kym-chi/sjgl"><img src="https://raw.githubusercontent.com/kym-chi/sjgl/master/media/sjgl-square.svg" align="left" hspace="10" vspace="6"></a>
-
-**sjgl** is a Java libray!
-
-todo!
+<a href="https://github.com/kym-chi/sjgl">
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/kym-chi/sjgl/master/media/sjgl-logo-wide.svg" hspace="10" vspace="6" height="300">
+  </p>
+</a>
