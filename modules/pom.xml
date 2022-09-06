@@ -57,7 +57,7 @@
   </modules>
 
   <build>
-    <finalName>sjgl-${artifactId}-${version}</finalName>
+    <finalName>sjgl-${project.artifactId}-${project.version}</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
