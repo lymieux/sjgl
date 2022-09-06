@@ -32,3 +32,14 @@
 ?color=ffff00&label=Tests&logo=junit5&logoColor=000000
 ?color=00ff00&label=Codecov&logo=codecov&logoColor=000000
 -->
+
+getting started
+wiki (project strucutre and geometry and alternatives)
+using (simple usage, then to using page)
+roadmap (not too much, link to other page)
+contributing (w/ link to authos and contributors and contributinh)
+acknowledgements (talk about giving credit but also references)
+license (license talk with link)
+
+cs: https://github.com/othneildrew/Best-README-Template
+insp: https://github.com/matiassingers/awesome-readme
