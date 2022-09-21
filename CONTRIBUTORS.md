@@ -1,2 +1,0 @@
-@kym-chi
-@dependabot

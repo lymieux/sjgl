@@ -1,6 +1,0 @@
-# Linux/macOS - Line Feed (LF)
-/gradlew        text eol=lf
-# Windows - Carriage Return Line Feed (CRLF)
-*.bat           text eol=crlf
-# User's machine choosing line ending
-* text=auto
