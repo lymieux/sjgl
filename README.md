@@ -1,45 +1,9 @@
-<div align="center">
-  <!-- sjgl logo image -->
-  <img src="https://raw.githubusercontent.com/kym-chi/sjgl/master/media/sjgl-logo-wide.svg" hspace="10" vspace="6" height="300">
-  <br>
-  <!-- badges -->
-  <img alt="GitHub Release (date)" 
-    src="https://img.shields.io/github/v/release/kym-chi/sjgl?color=ff0000&label=Release&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQ4jZXTMW4CMRCF4Q+UgoqCgj63QBtAXAPq5FTpuQBwgpyEHiiBzhTYaLN4zfIky7P2mxn/spe7ArYYYtcxDmqaxoV3RgX9WKAX568Yl8YselPuAyEd6Vjoesj4/yEoJIeGp4KPBkLSCWt8RvMeS4xqnlaEgLlnLTKnbEWod0oa5xCat5C0yhRYNr6LCGdMavsVLu8ghJjwjR9cM02KtwAD/GbWXyIctL+Blw9pWuiYNCsh/HUokPSEsHH/Vbcd4wA3c2xkWNLlYDgAAAAASUVORK5CYII=">
-  <img alt="GitHub Tag (date)" 
-    src="https://img.shields.io/github/v/tag/kym-chi/sjgl?color=ff7f00&label=Tag&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAhElEQVQ4ja2QSwqAIBRFTzSs9hTtJDcRfSCHLatJq3JQkwoRfSp14Q1Ez+E+4accwOmMAZZUgQvbs+UIRqACJkeiUwX1fW48TUTJ82i6JXNgnaDEBICopLQadPKWb1qgAHb3Qme0OAHls+dI+lDFIQFeY3tKkigsSZJhnyQbfqIQPuxzLkwEYCt2OWOLAAAAAElFTkSuQmCC">
-  <!---->
-  <img alt="JUnit 5" 
-    src="https://img.shields.io/">
-  <img alt="Javadocs" 
-    src="https://img.shields.io/endpoint?url=https%3A%2F%2Fkym-chi.github.io%2Fsjgl?color=7fff00&label=JavaDoc&logo=readthedocs&logoColor=000000">
-  <img alt="Codecov" 
-    src="https://img.shields.io/">
-  <img alt="Code Quality" 
-    src="https://img.shields.io/codefactor/grade/github/kym-chi/sjgl?color=00ff7f&label=Quality&logo=codefactor&logoColor=000000">
-  <!---->
-  <img alt="GitHub Commit Activity" 
-    src="https://img.shields.io/github/commit-activity/m/kym-chi/sjgl?color=00ffff&label=Activity&logo=github&logoColor=000000">
-  <img alt="Code Size" 
-    src="https://img.shields.io/github/languages/code-size/kym-chi/sjgl?color=007fff&label=Code%20Size&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVQ4jWNgGAzAm4GB4QkDA8N/EvFjBgYGTwYog1TNMPyIAYnjhUYTiyl3gSeZhjxiYGDwIDG8aQRGo3HIRyMA5pyVG2/Mg7sAAAAASUVORK5CYII=">
-  <!---->
-  <img alt="Discord" 
-    src="https://img.shields.io/discord/1009313799364415548?color=0000ff&label=Discord&logo=discord&logoColor=000000">
-  <img alt="Gitter" 
-    src="https://img.shields.io/gitter/room/kym-chi/sjgl?color=7f00ff&label=Chat&logo=gitter&logoColor=000000">
-</div>
+### sjgl - Obfubscation branch
+```
+This release consists solely of obfuscation for the classes and interfaces that are implemented in the 1.0.0 release of the sjgl-core. This is the only module with a currently planned obfubscation branch and release (as of 9/21/2022). This is because the module it is planned for is the basis of what the other modules are built upon, and a good and planned obfubscation for the classes/interfaces that others built off of allows for changes to be easily made and for flexibilty or the absense of it when creating a new class or module entirely.
 
-<!--
-?color=ffff00&label=Tests&logo=junit5&logoColor=000000
-?color=00ff00&label=Codecov&logo=codecov&logoColor=000000
--->
+This is only for the version 1.0.0 release of sjgl core, and does not contain any code, only a overtly specific and niche roadmap for the classes/interfaces. Any changes, removals, deprecations, fixes, and security notices would be mentioned in the Maven module.
 
-getting started
-wiki (project strucutre and geometry and alternatives)
-using (simple usage, then to using page)
-roadmap (not too much, link to other page)
-contributing (w/ link to authos and contributors and contributinh)
-acknowledgements (talk about giving credit but also references)
-license (license talk with link)
-
-cs: https://github.com/othneildrew/Best-README-Template
-insp: https://github.com/matiassingers/awesome-readme
+This branch is broken into a similar way the the Maven module is structured. A Mermaid file is also included in the root git directory to show a graph in a tree and branch format to show the relationship of all the classes/interfaces.
+```
+[License](./LICENSE) and [CHANGELOG](./CHANGELOG.md)
